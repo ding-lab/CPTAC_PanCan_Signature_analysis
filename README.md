@@ -14,14 +14,14 @@ This is a repo with the scripts for CPTAC pan-cancer proteogenomics signatures p
 1. ```Define_High_Low_groups``` -- this directory contains scripts that are used to define "High" and "Low" groups of samples for each mutational signature based on that signature mutational count and fraction. 
 
 
-2. ```Expression_markers``` -- this directory contains scripts to run differential expression markers between "High" and "Low" samples groups using cancer cohort as a covariate.
+2. ```Expression_markers``` -- this directory contains scripts to run differential expression marker analysis between "High" and "Low" samples groups using cancer cohort as a covariate.
 
    + The analysis was done using pan-cancer harmonised dataset, that was also used in the 1st and 2nd CPTAC papers listed above.
 
-   + In the folder, there are three scripts for markers based on: gene, protein and phosphosite expression.
+   + In the folder, there are three scripts for marker calculation based on: gene, protein and phosphosite expression.
 
 
-3. ```Proteogenomic_markers_Figs_5_6``` -- this directory contains analysis and plotting scripts for proteogenomic markers associated wih tht HRD, MSI, APOBEC, and smoking cancer phenotypes.
+3. ```Proteogenomic_markers_Figs_5_6``` -- this directory contains analysis and plotting scripts for analysis of proteogenomic markers associated wih tht HRD, MSI, APOBEC, and smoking cancer phenotypes.
 
    + ```Proteogenomic_markers_Figs_5_6/Volcano_plots``` -- scripts for plotting protein and phosphosite expression markers. Top markers are highlighted in those plots.
 
