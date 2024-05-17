@@ -27,7 +27,7 @@ This is a repo with the scripts for CPTAC pan-cancer proteogenomics signatures p
 
    + ```Proteogenomic_markers_Figs_5_6/Heatmap_plots``` -- scripts for plotting top gene, protein and phosphosite expression, that are also used for subtyping using ```ConsensusClusterPlus``` R package. For each of the phenotype/cancer pair, there are two steps/scripts. For example, for HRD-BRCA pair the scripts should be used in the following order:
 
-     * ```../Proteogenomic_markers_Figs_5_6/Heatmap_plots/Generate_matrix.BRCA.20240105.R``` -- script to select top markers, perform subtyping based on those, and also creating the matrix and annotations needed for plotting.
+     * ```Proteogenomic_markers_Figs_5_6/Heatmap_plots/Generate_matrix.BRCA.20240105.R``` -- script to select top markers, perform subtyping based on those, and also creating the matrix and annotations needed for plotting.
 
 
      * ```Proteogenomic_markers_Figs_5_6/Heatmap_plots/Make_heatmap_BRCA_HRD.20240105.R``` -- script to make a heatmap plot with ```ComplexHeatmap``` R package ,using the results from the previous steps.
